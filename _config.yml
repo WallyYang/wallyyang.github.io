@@ -15,6 +15,9 @@ plugins:
 
 remote_theme: jekyll/minima
 
+minima:
+  skin: dark
+
 header_pages:
   - index.md
   - blogs.md
