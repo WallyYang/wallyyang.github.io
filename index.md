@@ -15,6 +15,8 @@ I enjoy solving system/infrastructure problems, whether it's low-level programmi
 Rust is my preferred programming language, although I understand the cases for and willing to use Golang, Python, C++, etc.
 However, I strongly believe that anything that can be rewritten in Rust should be rewritten in Rust, convince me otherwise :).
 
+Outside my work, I enjoy mentoring students interested in tech careers, and I'm currently serving as an advisor at Slash Coding Club at Ohio State University.
+
 #### NOTE to Recruiters
 
 If you'd like to reach out to me, please include remote work info about your company/client. I don't plan to relocate any time soon.
