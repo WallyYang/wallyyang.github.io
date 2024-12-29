@@ -1,0 +1,69 @@
+---
+layout: post
+title:  "CS DIY 101 (Your First Coding Project)"
+date:   2024-12-29 13:00:00 -0400
+categories: mentoring
+---
+
+## Background
+
+(This post used to live in [telgraph](https://telegra.ph/CS-DIY-101-09-26), but now that I'm setting up my own blog, I decided to move it here.)
+
+A lot of CS students or self-taught learners asked me about how to write a project or something practical, so here's one I give to students I'm mentoring.
+
+This is follow-along using Flask (a Python Web Framework)'s official tutorial adding extra resouces for pre-requisites and extra steps if you want to develop further.
+
+I'm letting you read the actual Flask official tutorial instead of creating another complete tutorial for two reasons:
+1. There's no reason to re-invent the wheel. There's plenty of tutorial online, and no need for yet another one.
+2. the goal of this post is to help you finish the tutorial, and you can swap the actual tutorial part for anything similar instead of having to stick to the same one. e.g.:
+   * [Django's official tutorial](https://docs.djangoproject.com/en/5.1/intro/tutorial01/#) is another good one if you want to try Django instead of Flask
+   * [Ruby On Rail's Guide](https://guides.rubyonrails.org/getting_started.html) is yet another one if you prefer Ruby instead of Python.
+
+## Who is This Post for
+
+Mostly if you are someone with a little bit of programming experience (you know if/else, loop, plus some OOP), you should be able to follow along.
+
+However, if you are brand new to programming, and want to learn to write something practical immediately, it might be doable with all the pre-reading and bunch of trial and error with some challenge.
+
+## Notes:
+
+* While following the Tutorial, do not copy-paste the code, instead type everything yourself. This will help you notice every detail. (The only exception I'll make is the CSS files, it's not necessary to understand this project).
+* When running into problems, try to read the error (if there is), re-read the Tutorial, compare your code with the sample, look at the reference docs (linked below), Google search. Troubleshoot at least an hour before asking someone else (that includes AI tools). This way you can develop your troubleshooting skills.
+* If you do need to ask questions, read [How To Ask Questions The Smart Way](https://github.com/selfteaching/How-To-Ask-Questions-The-Smart-Way/blob/master/How-To-Ask-Questions-The-Smart-Way.md) first.
+
+## Pre-Readings
+
+Feel free to skip any of these if you already know them
+
+### HTML
+
+* HTML Tutorial: https://www.w3schools.com/html/default.asp
+* HTML Form: https://www.w3schools.com/html/html_forms.asp
+
+### Python
+
+* Official Python tutorial: https://docs.python.org/3/tutorial/index.html, this is most compact and efficient if you already know some programming
+* (Alternative) Introducing Python, 2nd ed (Part 1.): https://www.oreilly.com/library/view/introducing-python-2nd/9781492051374/, this is more gradual but more friendly to beginners
+* (Alternative) Learn Python the Hard Way: https://learnpythonthehardway.org/. I personally like this book because it ask you to write actual Python files instead of using the Python REPL. This shows you how a Python program file gets run. Especially I've seen some people having trouble running a .py file despite finishing a Python tutorial.
+
+### Git
+
+* I recommend putting your project in a Git repo all the time, commit after each chapter, and you can try rollback/forward along with the record. And once you're done, you can put everything on GitHub along with added README and additional features you'd add in the future.
+* Simple Git tutorial: https://www.w3schools.com/git/default.asp?remote=github
+* (Alternative) Official Git Book (good if you want to dive a little deeper): https://git-scm.com/book/en/v2
+
+### SQL (SQLite)
+
+* Knowing SQL is optional for this project, you can borrow the SQL queries from the tutorial at first. But this is needed if you want to add some additional features (see Addition Exercise)
+* https://www.sqlitetutorial.net/
+
+## The Actual Project
+
+* Environment Setup: https://flask.palletsprojects.com/en/2.3.x/installation/
+* Tutorial: https://flask.palletsprojects.com/en/2.3.x/tutorial/
+
+### Reference Resources
+
+* Flask main page: https://flask.palletsprojects.com/en/2.3.x/
+* Flask reference documentation, when you run into API you don't understand: https://flask.palletsprojects.com/en/2.3.x/api/
+* Jinja2 HTML template reference: https://jinja.palletsprojects.com/en/3.1.x/templates/
