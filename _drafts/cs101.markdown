@@ -67,3 +67,55 @@ Feel free to skip any of these if you already know them
 * Flask main page: https://flask.palletsprojects.com/en/2.3.x/
 * Flask reference documentation, when you run into API you don't understand: https://flask.palletsprojects.com/en/2.3.x/api/
 * Jinja2 HTML template reference: https://jinja.palletsprojects.com/en/3.1.x/templates/
+
+## Additional Exercises
+
+Once you are done with the project itself, it's time to improve your skill and expand your project with more features.
+
+These are some ideas, feel free to pick and choose, since there's no order in them. Remember to keep using Git version control so you can easily revert in case you made some mistake.
+
+NOTE: remember to update your tests whenever you made changes to the framework.
+
+#### Upload your project to GitHub and add a README.md file
+
+* Create an account at Github.com if don't have one yet (this is probably one of the most important thing in your programming career).
+* Write a README.md file using Markdown under project root and push to GitHub, see [a tutorial](https://www.markdowntutorial.com/) and [cheatsheet](https://www.markdownguide.org/cheat-sheet/)
+* Example of a good [README.md](https://github.com/doomemacs/doomemacs/blob/master/README.md) to mimick.
+* Your README.md project name, description, build/install instruction with prerequisite, and potentially screenshot and how to contribute.
+* This should be your habit for every project you build in the future
+* Type: polishing
+* Level: easy
+
+#### Refactor the Create and Update page into one
+
+* Since Create and Update post page are very similar, try to combine them into one single page.
+* Type: refactoring
+* Level: medium
+
+#### Add a Like button and Like count
+
+* Any modern social media has a Like or an equivalent. Try add one.
+* Notice: you will need to add an extra `<form>` in your HTML
+* Type: new feature
+* Level: medium
+
+#### Add a user profile page
+
+* Add a page to display user info (we only have username for now) and their blogs only
+* Type: new feature
+* Level: medium
+
+#### Change main page to excerpt and add a new page for the full blog
+
+* Display only a truncated preview in the index page
+* And add a new page to view the full blog
+* Type: new feature
+* Level: hard
+
+#### Change your blog's style with CSS
+
+* Read CSS tutorial if you haven't learned CSS before: https://www.w3schools.com/css/default.asp
+* Give your blog some new style (color, layout, etc.).
+* Don't spend too much time on this one, unless you really like CSS.
+* Type: expanding
+* Level: easy
