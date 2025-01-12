@@ -119,3 +119,39 @@ NOTE: remember to update your tests whenever you made changes to the framework.
 * Don't spend too much time on this one, unless you really like CSS.
 * Type: expanding
 * Level: easy
+
+#### Deploy your project to a production server
+
+* Using a public VPS (e.g. https://www.vultr.com/products/cloud-compute/, https://www.vultr.com/products/cloud-compute/). It's not free, but having a private server is very useful throughout your programming career.
+* You can also use cloud providers such as AWS/Azure/GCP if you have student discount or trial period. Notice they can be very expensive.
+* You can use waitress from the tutorial: https://flask.palletsprojects.com/en/3.0.x/tutorial/deploy/.
+* But to deploy as a production website it needs to run as port 80, you would need nginx/Appache httpd to create a proxy server: https://flask.palletsprojects.com/en/3.0.x/deploying/. This step could be optional.
+* Type: expanding
+* Level: hard if you don't much Linux server experience, otherwise this would be an easy one.
+
+#### Build a new website! Now that you know how to use Flask
+
+* What else could you make? A shopping website? An image sharing (think Instagram)?  An online messaging?
+* You can use the quickstart to remind you if you forgot anything: https://flask.palletsprojects.com/en/2.3.x/quickstart/
+* Use the API: https://flask.palletsprojects.com/en/2.3.x/api/ and the rest of the Flask documentation to guide you to use and learn new things: https://flask.palletsprojects.com/en/2.3.x/
+* Type: exploring
+* Level: easy-hard depending what you want to build :)
+
+
+### Further Reading
+
+These could be considered next steps if you are interested in expanding the project further:
+
+#### HTML & CSS
+
+* So far you might only learned the basic of HTML and CSS with snippet, this is a good book if you'd like to expand your knowledge and add some extra elements to your blog.
+* https://learning.oreilly.com/library/view/head-first-html/9781449324469/
+
+#### Bootstrap
+
+* https://getbootstrap.com/ bootstrap is a useful library to give your website some cool looks.
+
+#### JavaScript
+
+* Head First HTML5 (free register with OSU): https://www.oreilly.com/library/view/head-first-html5/9781449314712/
+* Once you learned JavaScript you could make your website more interactive (more buttons, some drop-down effect, etc.)
